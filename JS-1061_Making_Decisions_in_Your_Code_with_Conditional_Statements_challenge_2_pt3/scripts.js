@@ -1,4 +1,4 @@
-const isAdmin = true;
+const isAdmin = false;
 const isStudent = false;
 let message;
 
