@@ -1,5 +1,5 @@
 function merge(content, values) {
-    for (let key in values) {
+    for (const key in values) {
         content = content.replace("%" + key + "%", values[key]);
       }
     return content;
