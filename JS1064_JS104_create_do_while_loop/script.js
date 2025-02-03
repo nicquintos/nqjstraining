@@ -1,7 +1,7 @@
 // Display the prompt dialogue while the value assigned to `secret` is not equal to "sesame"
-let password = 'abc123';
+let password = '';
 do {
-  prompt("What is the secret password?");
+  password = prompt("What is the secret password?");
 } while ( password !== 'abc123' );
 
 // This should run after the loop is done executing
